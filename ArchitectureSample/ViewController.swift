@@ -11,6 +11,8 @@ enum Architecture: String, CaseIterable {
     case VIPER = "VIPER"
     case SwiftUI = "SwiftUI"
     case SwiftUIMVVM = "SwiftUI+MVVM"
+    case SwiftUIFlux = "SwiftUI+Flux"
+    case SwiftUIRedux = "SwiftUI+Redux"
     case TCA = "TCA"
     
     var viewController: UIViewController {
@@ -33,10 +35,14 @@ enum Architecture: String, CaseIterable {
             return UIHostingController(rootView: SwiftUITodoView(titleText: self.rawValue))
         case .SwiftUIMVVM:
             return UIHostingController(rootView: SwiftUIMVVMTodoView(titleText: self.rawValue))
+        case .SwiftUIFlux:
+            return UIHostingController(rootView: SwiftUIFluxTodoView(titleText: self.rawValue))
+        case .SwiftUIRedux:
+            return UIHostingController(rootView: SwiftUIReduxTodoView(titleText: self.rawValue))
         case .TCA:
             let detailView = TCATodoView(titleText: self.rawValue, store: Store(
                 initialState: TCATodoState(),
-                reducer: todoReducer,
+                reducer: swiftUITCATodoReducer,
                 environment: ()
             ))
             return UIHostingController(rootView: detailView)

@@ -26,6 +26,8 @@
 		27F68F732AEF6E0D00AACCAF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 27F68F722AEF6E0D00AACCAF /* RxCocoa */; };
 		27F68F752AEF6E0D00AACCAF /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 27F68F742AEF6E0D00AACCAF /* RxRelay */; };
 		27F68F772AEF6E0D00AACCAF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27F68F762AEF6E0D00AACCAF /* RxSwift */; };
+		965028922B133E61004E8467 /* SwiftUIFluxTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965028912B133E61004E8467 /* SwiftUIFluxTodoView.swift */; };
+		965028942B133FEC004E8467 /* SwiftUIReduxTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965028932B133FEC004E8467 /* SwiftUIReduxTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		27B9D3422AEA609200822B24 /* RXTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTodoViewController.swift; sourceTree = "<group>"; };
 		27D38A0C2AEE640C00F5BB8A /* RXMVVMTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXMVVMTodoViewController.swift; sourceTree = "<group>"; };
 		27F68F6F2AEF3B5B00AACCAF /* VIPERTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERTodoViewController.swift; sourceTree = "<group>"; };
+		965028912B133E61004E8467 /* SwiftUIFluxTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFluxTodoView.swift; sourceTree = "<group>"; };
+		965028932B133FEC004E8467 /* SwiftUIReduxTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReduxTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				27856F0F2AE8E07B003FA2B9 /* SceneDelegate.swift */,
 				27ABE65F2AEB5D1900F3A072 /* SwiftUIMVVMTodoView.swift */,
 				27856F252AE8E432003FA2B9 /* SwiftUITodoView.swift */,
+				965028912B133E61004E8467 /* SwiftUIFluxTodoView.swift */,
+				965028932B133FEC004E8467 /* SwiftUIReduxTodoView.swift */,
 				27856F2A2AE8F0E5003FA2B9 /* TCATodoView.swift */,
 				27856F112AE8E07B003FA2B9 /* ViewController.swift */,
 				27F68F6F2AEF3B5B00AACCAF /* VIPERTodoViewController.swift */,
@@ -187,10 +193,12 @@
 				27856F122AE8E07B003FA2B9 /* ViewController.swift in Sources */,
 				27D38A0D2AEE640C00F5BB8A /* RXMVVMTodoViewController.swift in Sources */,
 				27ABE6602AEB5D1900F3A072 /* SwiftUIMVVMTodoView.swift in Sources */,
+				965028922B133E61004E8467 /* SwiftUIFluxTodoView.swift in Sources */,
 				271245862AE9F8BC004706D6 /* MVVMTodoViewController.swift in Sources */,
 				27856F2B2AE8F0E5003FA2B9 /* TCATodoView.swift in Sources */,
 				27B9D3432AEA609200822B24 /* RXTodoViewController.swift in Sources */,
 				27856F0E2AE8E07B003FA2B9 /* AppDelegate.swift in Sources */,
+				965028942B133FEC004E8467 /* SwiftUIReduxTodoView.swift in Sources */,
 				27856F102AE8E07B003FA2B9 /* SceneDelegate.swift in Sources */,
 				27856F262AE8E432003FA2B9 /* SwiftUITodoView.swift in Sources */,
 				27F68F702AEF3B5B00AACCAF /* VIPERTodoViewController.swift in Sources */,
